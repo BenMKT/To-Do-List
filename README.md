@@ -65,7 +65,7 @@ Feel free to check the [issues page](https://github.com/BenMKT/To-Do-List/issues
 ## 💻 Getting Started <a name="getting-started"></a>
 If you are a new developer and would like to have a basic project to start practicing your code or creating your first project Using the most receent version of javaScript ,HTML and CSS : Cloning this project will give you what you need!
 
-To get a local copy up and running, follow these steps:
+To get a local copy up and running, follow these steps:<br> `npm run dev` or `npm start` to start this app.
 ### Prerequisites
 
 In order to run this project you need:
