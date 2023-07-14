@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  width: 385px;
+  height: 100px;
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#addBtn {
+  background-color: #fff;
+}
+
+.title,
+.input,
+.todo_button,
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid lightgray;
+  background-color: white;
+}
+
+button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #fff;
+  border: 2px solid lightgray;
+  align-content: center;
+  align-items: center;
+  padding: 1rem;
+  list-style: none;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  align-items: center;
+  align-content: center;
+  border: 1px solid lightgray;
+  list-style: none;
+}
+
+.taskContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  height: 50px;
+  justify-content: space-between;
+  padding: 5px 12px;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.removeBtn {
+  width: 50px;
+  border: none;
+  margin-left: 140px;
+}
+
+.Text {
+  width: 70%;
+  font-style: normal;
+  font-size: 1.3rem;
+  padding: 20px;
+}
+
+input {
+  border: none;
+  background: none;
+  outline: none;
+}
