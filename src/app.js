@@ -1,5 +1,5 @@
 let localStorage = {};
-if (typeof window !== "undefined" && window.localStorage) {
+if (typeof window !== 'undefined' && window.localStorage) {
   localStorage = window.localStorage;
 }
 
@@ -8,7 +8,7 @@ const updateLocalStorage = (tasks) => {
     task.index = index + 1;
   });
 
-  localStorage.setItem("tasks", JSON.stringify(tasks));
+  localStorage.setItem('tasks', JSON.stringify(tasks));
 };
 
 const addTask = (tasks, description) => {
@@ -35,4 +35,9 @@ const editTaskDescription = (tasks, taskId, newDescription) => {
     updateLocalStorage(tasks);
   }
 };
-export { addTask, deleteTask, editTaskDescription, updateLocalStorage };
+export {
+  addTask,
+  deleteTask,
+  editTaskDescription,
+  updateLocalStorage
+};
