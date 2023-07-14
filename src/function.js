@@ -24,12 +24,8 @@ export default function populateTodoList() {
     listItem.className = 'task-item';
     listItem.innerHTML = `
       <div class='taskContainer'>
-        <input type='checkbox' class='checkbox' ${
-          task.completed ? 'checked' : ''
-        }>
-        <input type='text' class='Text' value='${task.description}' ${
-      task.completed ? 'disabled' : ''
-    }>
+        <input type='checkbox' class='checkbox' ${task.completed ? 'checked' : ''}>
+        <input type='text' class='Text' value='${task.description}' ${task.completed ? 'disabled' : ''}>
         <button class='removeBtn' type='button' data-id='${index}'>&#x1F5D1;</button>
       </div>     
     `;
@@ -41,7 +37,6 @@ export default function populateTodoList() {
     });
 
     todoList.appendChild(listItem);
-    
   });
 
   const addBtn = document.getElementById('addBtn');
