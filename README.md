@@ -1,9 +1,9 @@
-# To do list structure
+# To-Do-List App
 
 <a name="readme-top"></a>
 
 <div align="center">
-  <h3><b>To do list structure</b></h3>
+  <h3><b>Interactive To-Do-List App</b></h3>
 </div>
 <!-- TABLE OF CONTENTS -->
 
@@ -25,8 +25,8 @@
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖To list structure<a name="about-project"></a>
-In this exercise I build a simple powerful webpack boilerplate, which I can later use as a starting point in my projects. I am working with the webpack official guides to create this setup.
+# 📖Interactive List<a name="about-project"></a>
+In this project, implemented some functionality to my application to make it interactive. The user will also be able to mark task completion by selecting the corresponding checkbox (or undo it by unchecking the checkbox). The updated tasks list will be stored in local storage.
 ## 🛠 Built With <a name="built-with"></a>
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -69,21 +69,21 @@ To get a local copy up and running, follow these steps:
 ### Prerequisites
 
 In order to run this project you need:
-- Have [npm](https://www.npmjs.com/package/npm) installed in your project:
+- Have [npm](https://www.npmjs.com/package/npm) installed in your project:<br>
   `curl -qL https://www.npmjs.com/install.sh | sh`
 ### Setup
 
-Clone this repository to your desired folder:
+Clone this repository to your desired folder:<br>
 `https://github.com/BenMKT/To-Do-List.git`
-or
-`git@github.com:BenMKT/To-Do-List.git` <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
+or<br>
+`git@github.com:BenMKT/To-Do-List.git`<br> <-- _Only if you have [SSH keys configured](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account) on your GitHub account_.
 ### Install:
 
 run the `npm install` command in your console.
 ### Usage
-To run the linters before committing any changes to your code, execute the following commands:
+To run the linters before committing any changes to your code, execute the following commands:<br>
 `npx hint .`
-`npx stylelint "**/*.scss"` 
+`npx stylelint "**/*.scss"` <br>
 
 <--_NOTE: this repo is set up to use with SCSS. If you would like to use CSS, you must replace `"**/*.scss"` with `"**/*.{css,scss}"` in **line 48** of the `.stylelintrc.json` file, and run the linter with:_
 `npx stylelint "**/*.{css,scss}"` _instead_.
