@@ -39,5 +39,5 @@ export {
   addTask,
   deleteTask,
   editTaskDescription,
-  updateLocalStorage
+  updateLocalStorage,
 };
