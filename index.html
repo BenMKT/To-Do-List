@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet"
+	  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <link rel="stylesheet" href="style.css" />
+<script defer src="runtime.bundle.js"></script><script defer src="index.bundle.js"></script><script defer src="function.bundle.js"></script><script defer src="app.bundle.js"></script></head>
+<body>
+    <div class="intro">
+	  <h1>Hello ! I am Benson here to help you !</h1>
+    </div>
+    <section id="main">
+		<h1 class="title">Today's To Do<span class="material-symbols-outlined todo_title-refresh">autorenew</span>
+        </h1>
+		<div class="input">
+		  <input type="text" id="new-task-input" placeholder="Add to your list..."></input>
+		  <span class="material-symbols-outlined" id="addBtn"> subdirectory_arrow_left </span>
+		</div>
+        <div>
+            <ul id="todo"></ul>
+        </div>
+
+        <div class="btn-todo">
+            <button id="clear" class="clear">Clear all completed</button>
+        </div>
+	 </section>
+     <script src="./index.bundle.js"></script>
+</body>
+</html>
