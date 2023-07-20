@@ -19,7 +19,7 @@ describe('editTaskDescription', () => {
     // Act: Call the function under test
     editTaskDescription(tasks, taskIdToUpdate, newDescription);
 
-    // Assert: 
+    // Assert:
     const expectedTasks = [
       { description: 'Task 1', index: 1 },
       { description: 'Updated Task Description', index: 2 },

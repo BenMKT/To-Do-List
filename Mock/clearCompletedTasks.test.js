@@ -55,7 +55,7 @@ describe('clearCompletedTasks', () => {
 
     // Act: Call the function under test
     clearCompletedTasks(tasks);
-    // Assert: 
+    // Assert:
     expect(tasks).toEqual([]);
     expect(updateLocalStorage).toHaveBeenCalledTimes(2);
     expect(updateLocalStorage).toHaveBeenCalledWith([]);
