@@ -3,7 +3,7 @@ const updateLocalStorage = (tasks) => {
     task.index = index + 1;
   });
 
-  localStorage.setItem('tasks', JSON.stringify(tasks));
+  localStorage.setItem("tasks", JSON.stringify(tasks));
 };
 
 module.exports = updateLocalStorage;
