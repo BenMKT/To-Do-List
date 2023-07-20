@@ -55,8 +55,7 @@ describe('clearCompletedTasks', () => {
 
     // Act: Call the function under test
     clearCompletedTasks(tasks);
-
-    // Assert: Check if the task list remains empty and updateLocalStorage is called with an empty array
+    // Assert: 
     expect(tasks).toEqual([]);
     expect(updateLocalStorage).toHaveBeenCalledTimes(2);
     expect(updateLocalStorage).toHaveBeenCalledWith([]);

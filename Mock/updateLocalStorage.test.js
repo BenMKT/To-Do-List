@@ -1,4 +1,4 @@
-const updateLocalStorage = require('./updateLocalStorage.js');
+const updateLocalStorage = require("./updateLocalStorage.js");
 
 // Mock the localStorage object
 const localStorageMock = (() => {
@@ -16,13 +16,13 @@ const localStorageMock = (() => {
 })();
 global.localStorage = localStorageMock;
 
-describe('updateLocalStorage', () => {
-  test('should update and store tasks in localStorage', () => {
+describe("updateLocalStorage", () => {
+  test("should update and store tasks in localStorage", () => {
     // Arrange: Prepare a sample array of tasks
     const tasks = [
-      { description: 'Task 1', completed: false, index: 1 },
-      { description: 'Task 2', completed: true, index: 2 },
-      { description: 'Task 3', completed: false, index: 3 },
+      { description: "Task 1", completed: false, index: 1 },
+      { description: "Task 2", completed: true, index: 2 },
+      { description: "Task 3", completed: false, index: 3 },
     ];
 
     // Act: Call the function under test
@@ -30,18 +30,15 @@ describe('updateLocalStorage', () => {
 
     // Assert: Check if localStorage.setItem is called with the correct data
     expect(localStorageMock.setItem).toHaveBeenCalledTimes(1);
-    expect(localStorageMock.setItem).toHaveBeenCalledWith(
-      'tasks',
-      JSON.stringify(tasks)
-    );
+    expect(localStorageMock.setItem).toHaveBeenCalledWith("tasks",JSON.stringify(tasks));
   });
 
-  test('should update and store tasks with updated index in localStorage', () => {
+  test("should update and store tasks with updated index in localStorage", () => {
     // Arrange: Prepare a sample array of tasks
     const tasks = [
-      { description: 'Task 1', completed: false, index: 1 },
-      { description: 'Task 2', completed: true, index: 2 },
-      { description: 'Task 3', completed: false, index: 3 },
+      { description: "Task 1", completed: false, index: 1 },
+      { description: "Task 2", completed: true, index: 2 },
+      { description: "Task 3", completed: false, index: 3 },
     ];
 
     // Act: Call the function under test

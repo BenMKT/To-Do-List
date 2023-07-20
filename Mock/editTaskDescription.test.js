@@ -19,7 +19,7 @@ describe('editTaskDescription', () => {
     // Act: Call the function under test
     editTaskDescription(tasks, taskIdToUpdate, newDescription);
 
-    // Assert: Check if the task description is updated and updateLocalStorage is called with the updated task list
+    // Assert: 
     const expectedTasks = [
       { description: 'Task 1', index: 1 },
       { description: 'Updated Task Description', index: 2 },
