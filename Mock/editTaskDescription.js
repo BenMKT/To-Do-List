@@ -1,4 +1,4 @@
-const updateLocalStorage = require("./updateLocalStorage.js");
+const updateLocalStorage = require('./updateLocalStorage.js');
 
 const editTaskDescription = (tasks, taskId, newDescription) => {
   if (taskId >= 0 && taskId < tasks.length) {

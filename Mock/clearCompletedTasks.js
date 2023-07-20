@@ -1,4 +1,4 @@
-const updateLocalStorage = require("./updateLocalStorage.js");
+const updateLocalStorage = require('./updateLocalStorage.js');
 
 const clearCompletedTasks = (tasks) => {
   const remainingTasks = tasks.filter((task) => !task.completed);
