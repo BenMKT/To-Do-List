@@ -1,4 +1,4 @@
-const updateLocalStorage = require('./updateLocalStorage');
+const updateLocalStorage = require('./updateLocalStorage.js');
 
 const addTask = (tasks, description) => {
   const newTask = {

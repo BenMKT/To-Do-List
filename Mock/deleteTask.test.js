@@ -1,6 +1,5 @@
-const addTask = require('./addTask');
-const updateLocalStorage = require('./updateLocalStorage');
-const deleteTask = require('./deleteTask');
+const updateLocalStorage = require('./updateLocalStorage.js');
+const deleteTask = require('./deleteTask.js');
 
 jest.mock('./updateLocalStorage');
 
