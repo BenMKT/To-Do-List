@@ -56,6 +56,12 @@ In this project, implemented some functionality to my application to make it int
 
 <!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+**Checkout the [Live App](https://benmkt-to-do-list.onrender.com)**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/BenMKT/To-Do-List/issues).
